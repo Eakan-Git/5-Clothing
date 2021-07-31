@@ -42,27 +42,27 @@ nav .search-box input{
   height: 100%;
   width: 100%;
   outline: none;
-  background: #F5F6FA;
+  background: #dedede;
   border: 2px solid #EFEEF1;
   border-radius: 6px;
   font-size: 18px;
   padding: 0 15px;
 }
-nav .search-box .bx-search{
+/*nav .search-box .bx-search{
   position: absolute;
   height: 40px;
   width: 40px;
-  background: #2697FF;
+  background: None;
   right: 5px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 4px;
   line-height: 40px;
   text-align: center;
-  color: #fff;
+  color: white;
   font-size: 22px;
   transition: all 0.4 ease;
-}
+}*/
 .menu ul{
   display: inline-flex;
 }
@@ -86,12 +86,12 @@ nav .search-box .bx-search{
   background: #fff;
   color: black;
 }
-.menu .search_box a{
+/*.menu .search_box a{
   text-decoration: none;
   color: #fff;
   font-size: 35px;
   font-weight: 600;
-}
+}*/
 .img{
   background: url('./assets/hero.jpg')no-repeat;
   width: 100%;
