@@ -12,7 +12,7 @@
 }
 nav{
   position: fixed;
-  background: #1b1b1b;
+  background: None;
   width: 100%;
   padding: 10px 0;
   z-index: 12;
@@ -41,6 +41,7 @@ nav .search-box{
 nav .search-box input{
   height: 100%;
   width: 100%;
+  opacity: 50%;
   outline: none;
   background: #dedede;
   border: 2px solid #EFEEF1;
@@ -85,6 +86,7 @@ nav .search-box input{
 .menu ul li a:hover{
   background: #fff;
   color: black;
+  opacity: 30%;
 }
 /*.menu .search_box a{
   text-decoration: none;
@@ -130,6 +132,7 @@ nav .search-box input{
   margin-top: 20px;
 }
 .center .btns button{
+  opacity: 80%;
   height: 55px;
   width: 170px;
   border-radius: 5px;
@@ -143,19 +146,14 @@ nav .search-box input{
   outline: none;
   transition: all 0.3s ease;
 }
-.center .btns button:first-child{
+.center .btns button{
   color: #fff;
   background: none;
 }
-.btns button:first-child:hover{
+.btns button:hover{
   background: white;
   color: black;
 }
-.center .btns button:last-child{
-  background: white;
-  color: black;
-}
-
 *{
   margin: 0;
   padding: 0;
