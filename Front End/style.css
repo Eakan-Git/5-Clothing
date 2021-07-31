@@ -12,7 +12,8 @@
 }
 nav{
   position: fixed;
-  background: None;
+  background: #1b1b1b;
+  opacity: 70%;
   width: 100%;
   padding: 10px 0;
   z-index: 12;
@@ -41,7 +42,7 @@ nav .search-box{
 nav .search-box input{
   height: 100%;
   width: 100%;
-  opacity: 50%;
+  opacity: 70%;
   outline: none;
   background: #dedede;
   border: 2px solid #EFEEF1;
