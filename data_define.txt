@@ -51,11 +51,7 @@ User:
 - Phone Number (string)
 - Address (string)
 - Last login (Date)
-
-User image:
-- ID (int)
-- User ID (int)
-- Path/Url (string)
+- Avatar Path/Url (string)
 
 Cart:
 - ID (int)
