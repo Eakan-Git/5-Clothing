@@ -1,0 +1,72 @@
+//Product with specified color & size
+//Means that each size and color has one ID
+//Ex: XXL-White T-Shirt has different ID with XL-White T-Shirt
+//ID format: aaabbbc
+//aaa: The real ID
+//bbb: Size, 00S->5XL
+//c: Color
+Product:
+- ID (int)
+- Name (string)
+- Description (string)
+- Size (int)
+- Color (int)
+- Price (float)
+- Visible (bool)
+- Category ID (int)
+
+Product images:
+- ID (int)
+- Product ID (int)
+- Path/Url (string)
+
+Category:
+- ID (int)
+- Name (string)
+
+Promotion:
+- ID (string) //Also the code
+- Percent (int)
+- Start Date (Date)
+- End Date (Date)
+
+Orders:
+- ID (int)
+- User ID (int)
+- Created (Date)
+- Status (int) //just placed, delivering, done, returned, canceled
+
+Ordered Product:
+- ID (int)
+- Quantity (int)
+- Order ID (int)
+- Product ID (int)
+
+User:
+- ID (int)
+- Email (string) //Also the username
+- Role (bool) //User or Manager
+- First Name (string)
+- Last Name (string)
+- Phone Number (string)
+- Address (string)
+- Last login (Date)
+
+User image:
+- ID (int)
+- User ID (int)
+- Path/Url (string)
+
+Cart:
+- ID (int)
+- User ID (int)
+
+Product in cart:
+- User ID (int)
+- Product ID (int)
+- Quantity (int)
+
+Wishlist:
+- ID (int)
+- User ID (int)
+- Product ID (int)
