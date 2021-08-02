@@ -6,7 +6,7 @@
 //bbb: Size, 00S->5XL
 //c: Color
 Product:
-- ID (int)
+- ID (string)
 - Name (string)
 - Description (string)
 - Size (int)
@@ -17,7 +17,7 @@ Product:
 
 Product images:
 - ID (int)
-- Product ID (int)
+- Product ID (string)
 - Path/Url (string)
 
 Category:
@@ -40,11 +40,12 @@ Ordered Product:
 - ID (int)
 - Quantity (int)
 - Order ID (int)
-- Product ID (int)
+- Product ID (string)
 
 User:
 - ID (int)
 - Email (string) //Also the username
+- Password (string)
 - Role (bool) //User or Manager
 - First Name (string)
 - Last Name (string)
@@ -58,11 +59,12 @@ Cart:
 - User ID (int)
 
 Product in cart:
+- ID (int)
 - User ID (int)
-- Product ID (int)
+- Product ID (string)
 - Quantity (int)
 
 Wishlist:
 - ID (int)
 - User ID (int)
-- Product ID (int)
+- Product ID (string)
