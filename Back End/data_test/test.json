@@ -1,0 +1,32 @@
+{
+    "category":[
+    {
+        "ID": 1,
+        "Name": "Candy"
+    }],
+    "product":[
+    {
+        "ID": "PD001",
+        "Name": "Áo màu vàng",
+        "Description": "",
+        "Size": "XL",
+        "Color": "Yellow",
+        "Price": 100,
+        "Visible": true,
+        "Category ID": 1
+    }],
+    "user": [
+    {
+        "ID": 1,
+        "Email": "123@gmail.com",
+        "Password": "123",
+        "Role": 0,
+        "fName": "John",
+        "lName": "Don",
+        "Phone": "0123456789",
+        "Address": "123 ABC",
+        "Last login": "03/08/2021",
+        "avaPath": null
+    }]
+
+}
