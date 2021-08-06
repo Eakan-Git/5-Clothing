@@ -1,0 +1,13 @@
+Project
+|   
+|   
++---Back End
+|   +---assets 	(data base,...)
+|   \---code	(source code)
+|
+\---Front End
+    +---assets 	(images,...)
+    |          
+    \---code	(source code)
+
+            
