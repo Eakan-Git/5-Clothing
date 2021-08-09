@@ -1,0 +1,54 @@
+product:{
+  id
+  name
+  description
+  size
+  color
+  price
+  visible
+  category_id
+}
+product_image:{
+  id
+  product_id
+  path
+}
+category:{
+  id
+  name
+}
+promotion:{
+  id
+  percent
+  start_date
+  end_date
+}
+order:{
+  id
+  user_id
+  created
+  status
+}
+ordered_product:{
+  id
+  quantity
+  order_id
+  product_id
+}
+user:{
+  id
+  email
+  password
+  role
+  first_name
+  last_name
+  phone_number
+  address
+  last_login
+  path
+}
+wishlist:{
+  id
+  user_id
+  product_id
+}
