@@ -130,7 +130,14 @@ alter table WISHLIST add
 	--categoryID int
 
 
-INSERT INTO PRODUCT ( ID, nameProduct, descriptions, size, color, price, visible)
-VALUES ('19127585', 'Skateboard', 'This product suck', 20, 1, 4.5, 1)
+
+
+SELECT * FROM CATEGORY
+
+
+INSERT INTO CATEGORY (ID, nameCate) VALUES (1, 'Shirt')
+INSERT INTO CATEGORY (ID, nameCate) VALUES (2, 'Pants')
+INSERT INTO PRODUCT ( ID, nameProduct, descriptions, size, color, price, visible,categoryID) VALUES ('001', 'T-shirt', 'A t-shirt', 20, 1, 4.5, 1, 1)
+INSERT INTO PRODUCT ( ID, nameProduct, descriptions, size, color, price, visible,categoryID) VALUES ('002', 'Long Pants', 'A pants', 30, 2, 6.5, 1, 2)
 
 SELECT * FROM PRODUCT
